@@ -1,0 +1,19 @@
+summary {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+details[open] summary {
+  border-radius: 5px 5px 0 0;
+}
+
+details {
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+details > * {
+  padding: 10px;
+}
